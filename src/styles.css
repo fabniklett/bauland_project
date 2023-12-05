@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap";
+
+html, body { height: 100%; }
+body { margin: 0;
+    font-family: "Yu Gothic", "Helvetica Neue", sans-serif;
+    background-image: url('file:///C:\Users\fabia\Niki\Photos\Weblap projektek\Apa oldala\szovetes_tapeta.jpg');
+    background-size: auto;
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Title} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-main-page',
@@ -8,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './main-page.component.css'
 })
 export class MainPageComponent {
+
+  constructor(private titleService: Title) {
+    this.titleService.setTitle("mainpage")
+  }
 
 }
